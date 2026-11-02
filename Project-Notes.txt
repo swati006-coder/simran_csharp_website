@@ -1,0 +1,24 @@
+PROJECT NOTES
+
+This is a beginner-level practical reference website prepared for the BCA .NET syllabus.
+
+Each practical page contains:
+- Aim
+- Topics or controls used
+- Program code or example
+- Sample / expected output
+- Conclusion
+
+The website itself is a static offline HTML project. It displays examples; it does not
+compile or execute C# code in the browser.
+
+Some examples use Visual Studio controls such as txtName, btnSubmit and lblResult.
+Create those controls in the Windows Forms Designer and use the same names, or change
+the names in the code to match your form.
+
+ADO.NET examples assume a SQL Server database named CollegeDB and a Students table.
+The sample output is illustrative; actual database results depend on the records and
+connection settings on the computer.
+
+ASP.NET snippets are examples for a suitable ASP.NET Core project. Configure session
+services and middleware before using session code.

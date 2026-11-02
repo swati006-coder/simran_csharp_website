@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DotNet Practical Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div><div class="brand"><img src="book.svg" alt="" width="25" height="25" style="vertical-align:middle"> DotNet Practical Hub</div><div class="tagline">C# / .NET Syllabus Practical File</div></div>
+  <nav aria-label="Main navigation">
+    <button type="button" data-page="home" class="active">Home</button>
+    <button type="button" data-page="student">Student Details</button>
+    <button type="button" data-page="units">All Units</button>
+  </nav>
+</header>
+<main>
+<section id="homePage">
+  <div class="hero">
+    <h1>Welcome to DotNet Practical Hub</h1>
+    <p>My .NET practical work for BCA 5th Semester. Select a unit, choose a practical, and read its aim, program, sample output and conclusion.</p>
+    <button class="primary" type="button" data-page="units">Explore Practicals →</button>
+    <button class="secondary" type="button" data-page="student">View Student Profile</button>
+  </div>
+  <div class="grid" id="homeUnits"></div>
+</section>
+<section id="studentPage" class="hidden">
+  <button class="secondary back" type="button" data-page="home">← Back to Home</button>
+  <div class="card">
+    <h2>Student Details</h2>
+    <p class="muted">Student information for this practical file.</p>
+    <div class="grid">
+      <div class="card"><span class="muted">Student Name</span><h3>Simran Sharma</h3></div>
+      <div class="card"><span class="muted">Roll Number</span><h3>7089/24</h3></div>
+      <div class="card"><span class="muted">Course / Semester</span><h3>BCA — 5th Semester</h3></div>
+      <div class="card"><span class="muted">College</span><h3>Post Graduate Government College, Sector 11</h3></div>
+      <div class="card"><span class="muted">Session</span><h3>2026–2027</h3></div>
+    </div>
+  </div>
+</section>
+<section id="unitsPage" class="hidden">
+  <button class="secondary back" type="button" data-page="home">← Back to Home</button>
+  <h2>All Syllabus Units</h2><p class="muted">Select a unit and then choose a practical to view the complete example and its sample output.</p>
+  <div id="unitGrid" class="grid"></div>
+</section>
+<section id="practicalsPage" class="hidden">
+  <button class="secondary back" type="button" data-page="units">← Back to Units</button>
+  <h2 id="unitHeading"></h2><p id="unitDescription" class="muted"></p>
+  <div class="layout">
+    <aside class="card"><h3>Practicals in this Unit</h3><div id="programList" class="program-list"></div></aside>
+    <article class="card" id="programDetails"><p class="muted">Select a practical from the list to view its details.</p></article>
+  </div>
+</section>
+</main>
+<footer>DotNet Practical Hub · Offline website · Open index.html in a browser</footer>
+<script src="practicals.js"></script>
+</body>
+</html>

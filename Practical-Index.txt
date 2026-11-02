@@ -1,0 +1,29 @@
+PRACTICAL INDEX
+
+UNIT I - .NET Framework & Visual Studio IDE
+1. Student Registration Form
+2. Simple Calculator
+3. Login Form
+4. Student Details Form
+5. Menu-Based Application
+
+UNIT II - C# Fundamentals
+1. Arithmetic Calculator
+2. Even or Odd Checker
+3. Multiplication Table
+4. Array Operations
+5. String Operations
+
+UNIT III - ADO.NET
+1. Database Connection
+2. Insert Student Record
+3. Search Student Record
+4. Update and Delete Record
+5. Display Records in DataGridView
+
+UNIT IV - ASP.NET
+1. Student Registration Web Form
+2. Form Validation
+3. Session Management
+4. Cookies Example
+5. Query String Example
